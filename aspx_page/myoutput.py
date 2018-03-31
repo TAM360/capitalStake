@@ -50,8 +50,7 @@ def scrapData(soup, htmlFile, outputFile):
         for i in range(2):
             for line in f2:
                 if len(line)>=52 and len(line)<=62:
-                    f.write(line[0: len(line) - 4])
-                
+                    f.write(line[0: len(line) - 4]) 
                 else:
                     f.write(line)
         
